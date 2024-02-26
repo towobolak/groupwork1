@@ -1,15 +1,20 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+
 }
 body{
     width: 100%;
     min-height: 100vh;
     justify-content: center;
+    box-sizing: border-box;    
 }
 .container{
     margin-top: 10px;
+}
+.container1{
+    padding-left: 8%;
+    padding-right: 8%;
 }
 .third-sections{
     position: relative;
@@ -26,8 +31,6 @@ body{
     padding-top: 4rem;
     top: 0;
 }
-
-
 .sum-prgph{
     width: 30rem;
     line-height: 1.3rem;
@@ -108,4 +111,112 @@ h3{
 }
 .last-txt{
     width: 49%;
+}
+
+.left01{
+    padding: 15px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    font-family: "Raleway", sans-serif;
+}
+.flyoImg{
+    width: 120px;
+    cursor: pointer;
+    margin: 30px 0;
+}
+nav{
+    flex: 1;
+    text-align: right;
+    cursor: pointer;
+}
+nav, ul, li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 10px;
+}
+nav, ul, li, a{
+    text-decoration: none;
+    color: black;
+}
+nav, ul, li, a:hover{
+    color: blue;
+}
+.left02{
+    display: flex;
+    align-items: center;
+}
+.text01{
+    border: 0.1px transparent;
+    justify-content: center;
+}
+.text001{
+    border: 0.1px transparent;
+    width: 100%;
+    font-size: 20px;
+    font-family: "Raleway", sans-serif;
+}
+.imgRight1{
+    width: 55%;
+}
+.button01{
+    background-color: hsl(224, 93%, 58%);
+    color: white;
+    padding: 6.5px 28px;
+    margin-left: 5px;
+    border: transparent;
+    border-radius: 3px;
+    font-size: 8px;
+    width: 220px;
+    height: 32px;
+    cursor: pointer;
+}
+.button01:hover{
+background-color: rgb(66, 75, 128);
+}
+.inputo1{
+    height: 28px;
+    padding-left: 8px;
+    border-radius: 3px;
+    border: 1px solid;
+}
+.button1{
+    display: flex;
+}
+.column5{
+    background-color: hsl(243, 87%, 12%);
+}
+.flyoImg2{
+    width: 120px;
+    cursor: pointer;
+    margin: 30px 0;
+}
+.details{
+    display: flex;
+    padding-top: 10px;
+    padding-bottom: 30px;
+
+}
+.details01{
+    display: grid;
+    border: 0.1px transparent;
+    padding-right: 190px;
+    cursor: pointer;
+    font-family: "Open Sans", sans-serif;
+    color: hsl(0, 0%, 75%);
+}
+.details01:hover{
+    color: rgb(163, 90, 135);
+}
+.detailLogo{
+    display: flex;
+}
+.freeSpace{
+    padding-right: 15px;
+}
+.list01{
+    color: white;
+}
+.icons{
+    cursor: pointer;
 }
